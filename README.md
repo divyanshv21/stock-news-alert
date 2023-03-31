@@ -15,7 +15,7 @@ This Python script fetches the daily adjusted closing prices of a particular sto
 ## Setup
 
 1. Clone the repository and navigate to the directory containing the script.
-2. Install the required libraries: pip install requests twilio.
+2. Install the required libraries: ```pip install requests twilio```
 3. Update the script with your API keys for Alpha Vantage and News API, as well as your Twilio account SID and auth token.
 4. Replace your twilio number with your Twilio phone number and number on which message is to be sent with the phone number that will receive the SMS alerts.
 5. Replace STOCK and COMPANY_NAME with the symbol and name of the stock you want to track.
@@ -24,8 +24,8 @@ This Python script fetches the daily adjusted closing prices of a particular sto
 
 To run the script, execute the following command in your terminal:
 
-'''
+```
 python stock_alert.py
-'''
+```
 
 The script will output the percentage change in the stock's price and the headline and brief of each news article related to the stock. It will also send an SMS alert containing the same information if the percentage change is greater than or equal to 2.
