@@ -1,7 +1,7 @@
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-API_KEY_STOCK = "1LW2YQNX8DWT8CO5"
-API_KEY_NEWS = "6b9ce757cf5a4910883aef1a4f757a59"
+API_KEY_STOCK = "your api-key"
+API_KEY_NEWS = "your api-key"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
@@ -55,12 +55,12 @@ if percentage_change >= 2:
 
     response = requests.get(NEWS_ENDPOINT, params={
         'country': 'us',
-        'apiKey': 'SK09b76c7c29ff2f94cb9706a5e31cafcb'
+        'apiKey': 'your api-key'
     })
 
     # set up Twilio client
-    account_sid = 'AC67eb421b874d4bc91012f8f37a923820'
-    auth_token = 'b88cf2109cdd039ae54cb4a8f6d677d0'
+    account_sid = 'your account sid'
+    auth_token = 'your auth token'
     client = Client(account_sid, auth_token)
 
     # send a separate message for each article
