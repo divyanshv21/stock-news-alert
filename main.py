@@ -69,7 +69,7 @@ if percentage_change >= 2:
         description = article['description']
         message = f"TSLA: 🔺2%\n\nHeadline: {title}\n\nBrief: {description}"
         client.messages.create(
-            to='+917844820116',
-            from_='+15672921012',
+            to='number on which message is to be sent',
+            from_='your twilio number',
             body=message
         )
