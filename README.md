@@ -8,7 +8,7 @@ This Python script fetches the daily adjusted closing prices of a particular sto
 2. requests library
 3. datetime module
 4. twilio library
-5. A Twilio account (for sending SMS alerts)
+5. A Twilio account (for sending SMS alert)
 6. An Alpha Vantage API key (for fetching stock prices)
 7. A News API key (for fetching news articles)
 
